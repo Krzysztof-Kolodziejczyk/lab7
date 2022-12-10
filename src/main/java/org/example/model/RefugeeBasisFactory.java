@@ -1,4 +1,6 @@
-package org.example;
+package org.example.model;
+
+import org.example.mapper.RefugeeBasis;
 
 import java.util.HashMap;
 

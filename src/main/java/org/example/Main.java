@@ -1,5 +1,8 @@
 package org.example;
 
+import org.example.registration.IRefugeeRegistrator;
+import org.example.registration.RefugeeRegistratorProxy;
+
 import java.util.Scanner;
 
 public class Main {

@@ -1,4 +1,4 @@
-package org.example;
+package org.example.model;
 
 public class Coordinates {
   private final double x;

@@ -1,18 +1,20 @@
-package org.example;
+package org.example.model;
+
+import org.example.mapper.RefugeeBasis;
 
 public class RefugeeDetails {
-  private final String lastName;
+  private final String lastname;
   private final Coordinates coordinates;
   private final RefugeeBasis refugeeBasis;
 
   public RefugeeDetails(String lastName, Coordinates coordinates, RefugeeBasis refugeeBasis) {
-    this.lastName = lastName;
+    this.lastname = lastName;
     this.coordinates = coordinates;
     this.refugeeBasis = refugeeBasis;
   }
 
-  public String getLastName() {
-    return lastName;
+  public String getLastname() {
+    return lastname;
   }
 
   public Coordinates getCoordinates() {
